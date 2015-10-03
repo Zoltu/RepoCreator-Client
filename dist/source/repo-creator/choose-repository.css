@@ -145,3 +145,8 @@
 	border-radius:6px;
 	float:right;
 }
+@media all and (max-width: 320px) and (min-width: 479px){
+.choose-repository .data-link {
+    font-size: 12px;
+}
+}
