@@ -1,4 +1,6 @@
 ## Build (only required once on checkout)
+
+[![Join the chat at https://gitter.im/Zoltu/RepoCreator-Client](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Zoltu/RepoCreator-Client?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 ```
 npm install
 node_modules/.bin/jspm registry config github
