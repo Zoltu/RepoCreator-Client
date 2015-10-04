@@ -82,6 +82,39 @@
 	line-height:44px;
 	border-bottom:1px solid #e1e1e1;
 }
+@media all and (max-width: 384px) and (min-width: 300px){
+ .choose-repository .data-link {
+font-size: 12px !important;
+}
+ .data-inner-link {
+    float: right;
+    position: relative;
+    top: -46px !important;
+    right: -5px !important;
+} 
+}
+ @media all and (max-width: 408px) and (min-width: 385px){
+.choose-repository .data-link {
+font-size: 12px !important;
+}
+.data-inner-link {
+    float: right;
+    position: relative;
+    top: -46px !important;
+    right: -5px !important;
+}
+}
+@media all and (max-width: 479px) and (min-width: 409px){
+.choose-repository .data-link {
+font-size: 12px !important;
+}
+.data-inner-link {
+    float: right;
+    position: relative;
+    top: -46px !important;
+    right: -5px !important;
+}
+} 
 .choose-repository .data-link{
 	color:black;
 	display:block;
