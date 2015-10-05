@@ -85,6 +85,9 @@
 .choose-repository .data-link{
 	color:black;
 	display:block;
+	text-overflow: ellipsis;
+        padding-right: 26px;
+        overflow: hidden;
 }
 .choose-repository .data-link:hover{
 	color:#6ccfe9;
@@ -145,3 +148,24 @@
 	border-radius:6px;
 	float:right;
 }
+@media all and (max-width: 384px) and (min-width: 300px){
+ .choose-repository .data-link {
+  font-size: 12px !important;
+
+}
+
+}
+ @media all and (max-width: 408px) and (min-width: 385px){
+.choose-repository .data-link {
+font-size: 12px !important;
+
+}
+
+}
+@media all and (max-width: 479px) and (min-width: 409px){
+.choose-repository .data-link {
+font-size: 12px !important;
+
+}
+
+} 
