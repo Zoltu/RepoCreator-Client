@@ -19,7 +19,7 @@
 						</h4>
 					</div>
 					<div class="panel-collapse collapse" class.bind="isSponsoredSelected ? 'in' : ''">
-						<div class="panel-body">
+						<div class="panel-body" style="margin-bottom:-44px;">
 							<div class="data-row" repeat.for="template of sponsoredTemplates">
 								<a href="" class="data-link" click.delegate="$parent.repoSelected(template)"><img src="resources/icons/Repo.svg" style="padding-right:12px;"/>
 									${template.owner}: ${template.name}
