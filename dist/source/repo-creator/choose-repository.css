@@ -71,6 +71,7 @@
 }
 /**** all inner panel ****/
 .choose-repository .panel-collapse > .panel-body{
+        position:relative;
 	overflow:auto;
 	padding:0px;
 	margin:5px;
@@ -163,4 +164,26 @@
     top: 50%;
     left: 0;
     margin-top: -10px;
+}
+#loading {
+   width: 100%;
+   height: 100%;
+   top: 0px;
+   left: 0px;
+   position: absolute;
+   display: block;
+   opacity: 0.7;
+   background-color: #fff;
+   z-index: 10000;
+   text-align: center;
+   bottom : 0;
+}
+
+#loading-image {
+  position: absolute;
+  
+  left: 50%;
+  z-index: 100;
+  margin-top: -16px;
+  top:50%;
 }

@@ -114,6 +114,9 @@
 								</div>
 							</div>
 							<div>
+<div id="loading" if.bind="searching">
+                                 <img id="loading-image" src="resources/icons/loader10.gif" alt="Loading..." />
+                            </div>
 								<div class="data-row" repeat.for="template of resultTemplates">
 									<a href="" class="data-link" click.delegate="$parent.repoSelected(template)">
 										<img src="resources/icons/Repo.svg" class="data-link-img" style="padding-right:12px;"/>${template.owner}: ${template.name}
