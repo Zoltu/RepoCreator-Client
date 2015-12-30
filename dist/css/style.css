@@ -1,5 +1,5 @@
 header{height:100px; width:100%; background:#fff;}
-.headerMenu{float: right;}
+.headerMenu{float: right; padding:0px;}
 ul li a:focus, ul li a:hover {color: #fff; text-decoration: none;}
 ul li a{color:#fff;}
 .start{background:#d9e45c; }
@@ -11,7 +11,7 @@ ul li a{color:#fff;}
 .headerLogo a{display:block; padding-top:4px;}
 .headerLogo a img{height:70px; margin-top: 12px;}
 .sectionMainBackground{ background:url(../images/bgImage.png); height:567px; padding-top: 80px; position:relative;}
-.backgroundMain{width:948px; font-family:'Roboto'; font-size:30px; font-weight:300; color:#333333; text-align:center; padding:50px; margin-left: auto; margin-right: auto; margin-top: 50px;}
+.backgroundMain{font-family:'Roboto'; font-size:30px; font-weight:300; color:#333333; text-align:center; padding:50px; margin-left: auto; margin-right: auto; margin-top: 50px;}
 .backgroundMain h1{font-family:'Roboto'; font-size:72px; font-weight:300; color:#333333;}
 .newProject_Heading{font-family:'Roboto'; font-size:48px; font-weight:300; color:#555555; text-align:center; margin-top:50px;}
 ul.newProjectList{font-family:'Roboto'; font-size:30px; font-weight:300; color:#555555; padding-top: 20px;}
@@ -50,7 +50,7 @@ text-align: center; color: #33b8e8 !important;}
 .headerMain{text-align:center;}
 .headerMenu{ clear:both; margin:0;}
 .headerMenu li{ float:left; font-family:'Roboto'; font-size:24px; font-weight:300; color:#ffffff; width:120px; line-height: 100px; list-style:none;}
-.headerMenu li a{ display:block; float:left; font-family:'Roboto'; font-size:24px; font-weight:300; color:#ffffff; width:120px; line-height: 100px;}
+.headerMenu li a{ display:block; float:left; font-family:'Roboto'; font-size:20px; font-weight:300; color:#ffffff; width:100%; line-height: 100px;}
 .headerMenu li:last-child{ margin-right:0px;}
 .homeIcon{text-align:center;}
 .mainSection{background:#dbf2f4; width:100%; padding:50px 0;}
@@ -147,6 +147,15 @@ ul.footerSocial{list-style-type:none; padding: 0px;}
 .backgroundMain h3{ font-family: 'Roboto'; font-size: 48px; font-weight: 300; color: #333333;}
 .indicatorsRepoCreator li{background:#000; border:1px solid #000;}
 
+/*Tips slider*/
+
+.previousSlider{margin-top:39px;height: 80px; background-image:none !important;}
+.nextSlider{margin-top:39px;height: 80px; background-image:none !important;}
+.previousIconSlider, .nextIconSlider{color:#666; }
+ol.tipsSliderList{display:none;}
+
+/*End*/
+
 
 @media only screen and (min-width: 1700px){
 	.container {
@@ -162,26 +171,27 @@ ul.footerSocial{list-style-type:none; padding: 0px;}
 
 @media only screen and (max-width: 1200px){
 	.filterByApps{margin-right:25px;}
+	.sectionBottom_TipsHeading{font-size:24px;}
 }
 
 @media only screen and (max-width: 992px){
 	.sectionCreate{font-size:20px;}
 	.homeIconDetails{font-size: 18px;}
 	.homeIconHeading{ font-size: 20px;}
-	.homeIcon i {line-height: 210px;}
-	.homeIcon {width: 100%; height: 210px;}
+	.homeIcon {width: 100%;}
 	.sectionBottom-heading{width:90%;}
 	.filterByApps{margin-right:52px;}
 	.filterBy { float: left; font-size: 18px; font-family: 'Lato'; font-weight: 400; color: #272223; text-align: center; top: 10px;left:0px; padding: 0px;}
 	.sectionBottom-heading{width: auto;font-size: 60px; font-family: 'Roboto'; font-weight: 300; color: #ffffff; text-align: center; margin: 0 auto; line-height: 160px;}
-	.sectionBottom_TipsHeading{font-size:23px; font-family: 'Roboto'; font-weight:300; color:#555555; background:#f7f7f7; text-align:center; margin: 0 auto; line-height: 80px; margin-top: 40px;}
-	.sectionBottom_templateRepository{font-size: 40px; font-family: 'Roboto'; font-weight: 300; color: #ffffff; background: #337990;text-align: center; margin: 0 auto; line-height: 160px; margin-top: 50px;}
-	.sectionBottom_templateRepository{font-size: 40px; font-family: 'Roboto'; font-weight: 300; color: #ffffff; background: #337990; text-align: center; margin: 0 auto; line-height: 160px; margin-top: 50px;}
-	.sectionBottom_FAQ{font-size: 40px; font-family: 'Roboto'; font-weight: 300; color: #ffffff; background: #7a5993;
+	.sectionBottom_TipsHeading{font-size:18px; font-family: 'Roboto'; font-weight:300; color:#555555; background:#f7f7f7; text-align:center; margin: 0 auto; line-height: 80px; margin-top: 40px;}
+	.sectionBottom_templateRepository{font-size: 38px; font-family: 'Roboto'; font-weight: 300; color: #ffffff; background: #337990;text-align: center; margin: 0 auto; line-height: 160px; margin-top: 50px;}
+	.sectionBottom_templateRepository{font-size: 38px; font-family: 'Roboto'; font-weight: 300; color: #ffffff; background: #337990; text-align: center; margin: 0 auto; line-height: 160px; margin-top: 50px;}
+	.sectionBottom_FAQ{font-size: 38px; font-family: 'Roboto'; font-weight: 300; color: #ffffff; background: #7a5993;
 text-align: center; margin: 0 auto; line-height: 160px; margin-top: 50px;} 
 	.sponsoredTabs{background:#f7f7f7; font-family:'Roboto'; font-size:22px; font-weight:300; color:#555555 !important; }
-	.sectionBottom_Sponsorship{font-size: 40px; font-family: 'Roboto'; font-weight: 300; color: #ffffff; background: #33b8e8; text-align: center; margin: 0 auto; line-height: 160px; margin-top:50px;}
+	.sectionBottom_Sponsorship{font-size: 38px; font-family: 'Roboto'; font-weight: 300; color: #ffffff; background: #33b8e8; text-align: center; margin: 0 auto; line-height: 160px; margin-top:50px;}
 	.zoltuTextAzure{line-height:30px; padding-top: 5px;  padding-bottom: 5px;font-family:'Roboto'; font-size:22px; font-weight:300; color:#555555;  }
+	.headerMenu li{width:90px;}
 }
 
 @media only screen and (max-width: 768px){
@@ -191,11 +201,10 @@ text-align: center; margin: 0 auto; line-height: 160px; margin-top: 50px;}
 	.filterBy{display:none;}
 	.allAppsDropdownMain{padding:0;}
 	.filterByButton{float:right;}
-	.MenuDiv{ display:none;}
 	.headerMenuMobile{ display:block;}
 	.backgroundMain{text-align:center; width:auto;}
 	.sectionBottom-heading{width: auto;font-size: 30px; font-family: 'Roboto'; font-weight: 300; color: #ffffff; text-align: center; margin: 0 auto; line-height: 160px;}
-	.sectionBottom_TipsHeading{font-size:16px; font-family: 'Roboto'; font-weight:300; color:#555555; background:#f7f7f7; text-align:center; margin: 0 auto; line-height: 80px; margin-top: 40px;}
+	.sectionBottom_TipsHeading{font-size:14px; font-family: 'Roboto'; font-weight:300; color:#555555; background:#f7f7f7; text-align:center; margin: 0 auto; line-height: 80px; margin-top: 40px;}
 	.sectionBottom_templateRepository{font-size: 30px; font-family: 'Roboto'; font-weight: 300; color: #ffffff; background: #337990; text-align: center; margin: 0 auto; line-height: 160px; margin-top: 50px;}
 	.sectionBottom_FAQ{font-size: 30px; font-family: 'Roboto'; font-weight: 300; color: #ffffff; background: #7a5993;
 text-align: center; margin: 0 auto; line-height: 160px; margin-top: 50px;} 
@@ -205,10 +214,18 @@ text-align: center; margin: 0 auto; line-height: 160px; margin-top: 50px;}
 	.sectionBottomPublicInner{margin-bottom:20px;}
 	.homeIcon{ height:auto;}
 	.favoritesMainInner p{ font-size:14px;}
+	.headerMenu li{width:90px;}
+	.backgroundMain h3{font-family: 'Roboto'; font-size: 40px; font-weight: 300; color: #333333;}
+	.headerMenuMobile{display:none;}
+	.titleMagicApp{width:100%;}
+	.cco_heading_top{font-size:30px;}
+	.cco_heading{font-size:24px; padding-top:20px;}
+	.coo_priceCircle{margin-top:15px; margin-bottom:15px;}
+	
 }
 
 @media only screen and (max-width: 600px){
-	.sectionBottom_TipsHeading{font-size:12px; font-family: 'Roboto'; font-weight:300; color:#555555; background:#f7f7f7; text-align:center; margin: 0 auto; line-height: 80px; margin-top: 40px;}
+	.sectionBottom_TipsHeading{font-size:11px; font-family: 'Roboto'; font-weight:300; color:#555555; background:#f7f7f7; text-align:center; margin: 0 auto; line-height: 80px; margin-top: 40px;}
 	.sectionBottom-heading{width: auto;font-size: 24px; font-family: 'Roboto'; font-weight: 300; color: #ffffff; text-align: center; margin: 0 auto; line-height: 100px;}
 	.sectionBottom_templateRepository{font-size: 24px; font-family: 'Roboto'; font-weight: 300; color: #ffffff; background: #337990; text-align: center; margin: 0 auto; line-height: 100px; margin-top: 50px;}
 	.sectionBottom_FAQ{font-size: 24px; font-family: 'Roboto'; font-weight: 300; color: #ffffff; background: #7a5993;
@@ -231,10 +248,11 @@ text-align: center; margin: 0 auto; line-height: 100px; margin-top: 50px;}
 	.indicatorsRepoCreator {
 		top: 220px;
 	}
+	.headerMenu li{width:100%;}
 }
 
 @media only screen and (max-width: 480px){
-	.sectionBottom_TipsHeading{font-size:9px; font-family: 'Roboto'; font-weight:300; color:#555555; background:#f7f7f7; text-align:center; margin: 0 auto; line-height: 40px; margin-top: 40px;}
+	.sectionBottom_TipsHeading{font-size:8px; font-family: 'Roboto'; font-weight:300; color:#555555; background:#f7f7f7; text-align:center; margin: 0 auto; line-height: 40px; margin-top: 40px;}
 	.sectionBottom-heading{width: auto;font-size: 16px; font-family: 'Roboto'; font-weight: 300; color: #ffffff; text-align: center; margin: 0 auto; line-height: 70px;}
 	.sectionBottom_templateRepository{font-size: 16px; font-family: 'Roboto'; font-weight: 300; color: #ffffff; background: #337990; text-align: center; margin: 0 auto; line-height: 70px; margin-top: 50px;}
 	.sectionBottom_FAQ{font-size: 16px; font-family: 'Roboto'; font-weight: 300; color: #ffffff; background: #7a5993;
@@ -263,5 +281,14 @@ text-align: center; margin: 0 auto; line-height: 70px; margin-top: 50px;}
 	.cco_heading_top{ font-size:24px;}
 	.cco_heading{ font-size:18px;}
 	.cco_content{ font-size:16px;}
+	.headerMenu li{width:100%;}
+	.previousSlider{margin-top:39px;height: 40px; background-image:none !important;}
+	.nextSlider{margin-top:39px;height: 40px; background-image:none !important;}
+}
+@media only screen and (max-width: 767px){
+		.MenuDiv{ display:none;}
+		.headerMenu li{width:100%;}
+		.headerMenuMobile{display:block;}
+
 }
 
