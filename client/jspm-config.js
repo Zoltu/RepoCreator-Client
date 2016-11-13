@@ -37,7 +37,7 @@ System.config({
     "aurelia-http-client": "npm:aurelia-http-client@1.0.0-beta.1.2.0",
     "auth0-lock": "github:auth0/lock@9.0.0",
     "oauthio-web": "npm:oauthio-web@0.5.0",
-    "stripe-checkout": "https://proxy.zoltu.io/stripe/checkout.js",
+    "stripe-checkout": "https://webapiproxy.azurewebsites.net/stripe/checkout.js",
     "typescript": "npm:typescript@1.7.5",
     "underscore": "npm:underscore@1.8.3",
     "wu": "npm:wu@2.1.0",
