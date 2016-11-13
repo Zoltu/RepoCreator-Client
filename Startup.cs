@@ -35,6 +35,7 @@ namespace Zoltu.RepoCreator.Client
 		public void ConfigureServices(IServiceCollection services)
 		{
 			services.AddApplicationInsightsTelemetry(_configuration);
+			services.AddCors();
 		}
 
 		public void Configure(IApplicationBuilder applicationBuilder, IHostingEnvironment hostingEnvironment, ILoggerFactory loggerFactory)
@@ -43,6 +44,7 @@ namespace Zoltu.RepoCreator.Client
 
 			applicationBuilder.UseApplicationInsightsRequestTelemetry();
 			applicationBuilder.UseApplicationInsightsExceptionTelemetry();
+			applicationBuilder.UseCors(builder => builder.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin());
 			applicationBuilder.UseDefaultFiles();
 			applicationBuilder.UseStaticFiles();
 		}
