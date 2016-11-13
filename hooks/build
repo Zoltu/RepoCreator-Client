@@ -1,0 +1,2 @@
+#!/bin/sh
+docker build --build-arg JSPM_GITHUB_AUTH_TOKEN=$JSPM_GITHUB_AUTH_TOKEN -t $IMAGE_NAME .
