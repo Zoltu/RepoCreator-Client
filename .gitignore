@@ -1,5 +1,4 @@
-/dist/jspm_packages/
+/client/jspm_packages/
 /node_modules/
-dist/bundle.js
-dist/bundle.js.map
-.idea/
+/client/bundle.js
+/client/bundle.js.map
