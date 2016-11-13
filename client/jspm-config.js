@@ -9,7 +9,7 @@ System.config({
     "github:*": "jspm_packages/github/*",
     "npm:*": "jspm_packages/npm/*",
     "bower:*": "jspm_packages/bower/*",
-    "stripe-checkout": "https://proxy.zoltu.io/stripe/checkout.js"
+    "stripe-checkout": "https://webapiproxy.azurewebsites.net/stripe/checkout.js"
   },
 
   packages: {
@@ -20,7 +20,7 @@ System.config({
   buildCSS: false,
 
   meta: {
-    "https://proxy.zoltu.io/stripe/checkout.js": {
+    "https://webapiproxy.azurewebsites.net/stripe/checkout.js": {
       "format": "global",
       "build": false
     }
